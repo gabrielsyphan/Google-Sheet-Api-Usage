@@ -1,0 +1,31 @@
+{
+	"name": "stonks/router",
+	"description": "O Router é um componente de rotas PHP com abstração para MVC. Preparado com verbos RESTful (GET, POST, PUT, PATCH e DELETE), ele trabalha em sua própria camada de forma isolada.",
+	"keywords": [
+		"Stonks",
+		"Route",
+		"Routes",
+		"Router",
+		"Routers"
+	],
+	"type": "library",
+	"license": "MIT",
+	"homepage": "https://github.com/giovannialo/router",
+	"authors": [
+		{
+			"name": "Giovanni A. L. Oliveira",
+			"email": "giovanni.al.oliveira@gmail.com",
+			"role": "Developer",
+			"homepage": "https://github.com/giovannialo"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": "^7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Stonks\\Router\\": "src/"
+		}
+	}
+}
